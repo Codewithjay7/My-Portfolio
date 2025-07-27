@@ -9,7 +9,7 @@ const Projects = () => {
       </h1>
       <hr className="hr"/>
       <br />
-        <img src="/public/images/p_agms.jpg" className="ProjectImg"/>
+        <img src="/images/p_agms.jpg" className="ProjectImg"/>
         <br />
         <p className="project-text"> 
         This is my art gallery website made with PHP, JavaScript, HTML, and CSS.
@@ -20,7 +20,7 @@ const Projects = () => {
       <br />
       <hr className="hr"/>
       <br />
-        <img src="/public/images/Art.jpg" className="ProjectImg"/>
+        <img src="/images/Art.jpg" className="ProjectImg"/>
         <br />
         <p className="project-text" > 
         This is my art gallery website made with Djanago, JavaScript, HTML, and CSS.
@@ -31,7 +31,7 @@ const Projects = () => {
       <br />
       <hr className="hr"/>
       <br />
-        <img src="/public/images/p_hotel.jpg" className="ProjectImg"/>
+        <img src="/images/p_hotel.jpg" className="ProjectImg"/>
         <br />
         <p className="project-text" > 
         This is a hotel booking site made with PHP, JavaScript, HTML, and CSS. Users can book rooms by entering their details. The site is easy to use, fast, and works on all devices.
@@ -39,7 +39,7 @@ const Projects = () => {
       <br />
       <hr className="hr"/>
       <br />
-        <img src="/public/images/my-pf.png" className="ProjectImg"/>
+        <img src="/images/my-pf.png" className="ProjectImg"/>
         <br />
         <p className="project-text" > 
         This is my personal portfolio website built using React.js, JSX, HTML, and CSS. It showcases my projects, skills, and contact info in a clean and responsive design.

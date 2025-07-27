@@ -70,7 +70,7 @@ const Hero = () => {
         </header>
         {/* Right side image */}
         <figure className="hero-figure md:w-1/2 w-full flex justify-center items-center">
-          <img src="/public/images/HomePage.jpg" alt="Jay" className="hero-image" />
+          <img src="/images/HomePage.jpg" alt="Jay" className="hero-image" />
         </figure>
       </div>
     </section>
