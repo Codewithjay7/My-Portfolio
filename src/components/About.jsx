@@ -7,7 +7,7 @@ const About = () => {
       {/* FLEX only applied here */}
       <div className="about-flex flex">
         <img
-          src="/images/About3.jpg"
+          src="images/About3.jpg"
           className="aboutImg"
           alt="Jay Chavda"
         />
@@ -22,22 +22,22 @@ const About = () => {
           </h1>
           <hr className="hr" />
           <h3 style={{ fontSize: "23px" }}>
-            <img src="/images/date1.png" className="imgs" />
+            <img src="images/date1.png" className="imgs" />
             &nbsp;
             <h1 style={{ display: "inline", paddingRight: "100px" }}>
               18.11.2004
             </h1>
-            <img src="/images/calling.png" className="imgs" />
+            <img src="images/calling.png" className="imgs" />
             &nbsp;
             <h1 style={{ display: "inline", paddingRight: "100px" }}>
               73590 58058
             </h1>
-            <img src="/images/email.png" className="imgs" />
+            <img src="images/email.png" className="imgs" />
             &nbsp; jay1971chavda@gmail.com
           </h3>
           <p>
             <img
-              src="/images/loc.png"
+              src="images/loc.png"
               style={{ height: "30px", width: "30px", display: "inline" }}
             />
             <a style={{ fontSize: "20px", paddingRight: "100px" }}>
@@ -51,7 +51,7 @@ const About = () => {
               style={{ color: "lightblue", fontSize: "20px" }}
             >
               <img
-              src="/images/linkedin.png"
+              src="images/linkedin.png"
               style={{ height: "20px", width: "20px", display: "inline" }}
             />
              &nbsp; linkedin.com/in/jay-chavda-09903a27a

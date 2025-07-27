@@ -8,7 +8,7 @@ const Button = ({ text, className, id }) => {
           <p className="text">{text}</p>
           
           <div className="arrow-wrapper ">
-            <img src="/images/arrow-down.svg" alt="arrow" /> 
+            <img src="images/arrow-down.svg" alt="arrow" /> 
 
            
           </div>

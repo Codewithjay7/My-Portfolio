@@ -27,7 +27,7 @@ const Hero = () => {
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-0">
-        <img src="/images/bg.png" alt="background" />
+        <img src="images/bg.png" alt="background" />
       </div>
 
       <div className="hero-layout flex flex-row items-center justify-between">
@@ -70,7 +70,7 @@ const Hero = () => {
         </header>
         {/* Right side image */}
         <figure className="hero-figure md:w-1/2 w-full flex justify-center items-center">
-          <img src="/images/HomePage.jpg" alt="Jay" className="hero-image" />
+          <img src="images/HomePage.jpg" alt="Jay" className="hero-image" />
         </figure>
       </div>
     </section>
