@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const words = [
   {
     text: "Tdeas",
@@ -15,4 +17,12 @@ export const words = [
     text: "Code",
     imgpath: "/images/code.svg",
   },
+];
+
+export const navLinks = [
+  { name: 'Home', link: '#hero' },
+  { name: 'About', link: '#about' },
+  { name: 'Projects', link: '#Projects' },
+  { name: 'Contact', link: '#Contact' },
+  { name: 'Skills', link: '#Skills' },
 ];

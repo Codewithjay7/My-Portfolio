@@ -2,10 +2,10 @@
 @import "tailwindcss";
 
 
-
 :root {
   --gradient: radial-gradient(circle, #e5e5e5 0%, #fff 100%);
 }
+
 
 html,
 body {
@@ -29,6 +29,53 @@ section {
   --color-black-200: #282732;
   --color-blue-50: #839cb5;
   --color-blue-100: #2d2d38;
+}
+
+.imgs{
+  height: 20px;
+  width: 20px;
+  display: inline;
+}
+.aboutImg {
+  margin-left: 100px;
+  width: 180px;       
+  height: 200;     
+  
+  border-radius: 50%;  
+  margin-bottom: 1rem; 
+  box-shadow: 0 4px 16px rgba(227, 84, 84, 0.15); 
+  padding-bottom: 20px;
+}
+.about-flex {
+ 
+  gap: 2rem;
+}
+.main-about{
+  display: flow-root;
+}
+
+.ProjectImg{
+  height: 150px;
+  width: 150px;
+  display: flex;
+  margin-left: 42%;
+}
+
+.hr{
+  border: 1px solid cyan;
+  margin: 20px 0 
+}
+.project-text{
+  font-size: 15px;
+  padding-left:25%;
+  padding-right:25%;
+}
+@media (max-width: 600px) {
+  .about-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 @layer utilities {
@@ -473,6 +520,46 @@ section {
   opacity: 1;
 }
 
+.about-card {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 2.5rem 2rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  color: #e0e0e0;
+  border: 1px solid rgba(255,255,255,0.1);
+  position: relative;
+  overflow: hidden;
+}
 
+.about-card h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #00e6ff;
+  margin-bottom: 0.5rem;
+}
 
+.about-card h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffd700;
+  text-decoration: underline wavy #ffd700;
+}
 
+.about-card p, .about-card a {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+.about-card a {
+  color: #00e6ff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.about-card a:hover {
+  color: #ffd700;
+}

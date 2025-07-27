@@ -1,0 +1,11 @@
+
+
+#about ,#Contact,#Projects,#Skills{
+
+    color: rgb(244, 233, 233);
+    font-family: "Georgia";
+    font-size: 32px;
+    padding: 40px 0;
+    padding-top:100px;
+    min-height: 100vh;
+  }
