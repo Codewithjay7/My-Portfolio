@@ -12,7 +12,7 @@ const About = () => {
           alt="Jay Chavda"
         />
 
-        <div>
+        <div >
           <h1 style={{ fontSize: "15px" }}>
             Hello Everyone <span style={{ color: "cyan" }}>👋</span>
           </h1>
@@ -24,14 +24,16 @@ const About = () => {
           <h3 style={{ fontSize: "23px" }}>
             <img src="images/date1.png" className="imgs" />
             &nbsp;
-            <h1 style={{ display: "inline", marginRight: "120px",paddingLeft:"20px" }}>
+            <h1 style={{ display: "inline", marginRight: "120px",paddingLeft:"10px" }}>
               18.11.2004
             </h1>
+            <br />
             <img src="images/calling.png" className="imgs" />
             &nbsp;
             <h1 style={{ display: "inline", paddingRight: "100px" }}>
               73590 58058
             </h1>
+            <br />
             <img src="images/email.png" className="imgs" />
             &nbsp; jay1971chavda@gmail.com
           </h3>
@@ -65,7 +67,7 @@ const About = () => {
       <div style={{ marginTop: "30px", marginLeft: "100px" }}>
         <h3 style={{ textDecoration: "underline" }}>Career Objective</h3>
         <br />
-        <p style={{fontSize:"20px",paddingLeft:"20px"}}>
+        <p style={{fontSize:"20px"}}>
           Motivated and self-taught IT student in 6th semester at Lok Jagruti
           University.
           <br />
