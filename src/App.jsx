@@ -4,18 +4,19 @@ import Navbar from "./components/Navbar.jsx";
 import About from "./components/About";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
-import Contect from "./components/Contact";
+import Contact from "./components/Contact.jsx";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <About />
       <Projects />
-
-      <Contect />
+      <About />
+    
       <Skills />
+      <Contact />
+     
     </>
   );
 };

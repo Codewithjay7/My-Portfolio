@@ -1,7 +1,7 @@
 // import { useState, useEffect } from "react";
 
 import { navLinks } from "../constants";
-
+import { contactLink } from "../constants";
 const NavBar = () => {
   // track if the user has scrolled down the page
   // const [scrolled, setScrolled] = useState(false);
@@ -45,7 +45,12 @@ const NavBar = () => {
 
         <a href="#contact" className="contact-btn group">
           <div className="inner">
-            <span>Contact me</span>
+            {contactLink.map(({link})=>(
+              <a href={link} >
+              <span>Contact me</span>
+              </a>
+            ))}
+           
           </div>
         </a>
         

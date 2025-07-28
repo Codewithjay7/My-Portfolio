@@ -4,6 +4,8 @@ import Button from "../components/Button";
 //import HeroExperience from "../components/HeroModels/HeroExperience";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { Link } from "react-router-dom";
+import Porject from "../components/Projects";
 
 
 const Hero = () => {
@@ -61,11 +63,13 @@ const Hero = () => {
             <p className="text-white-50 md:text-xl relative z-10 pointer-event-none">
               Hi, I'm Jay — a passionate front-end developer
             </p>
+           
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
               id="button"
               text="see my work"
             />
+            
           </div>
         </header>
         {/* Right side image */}

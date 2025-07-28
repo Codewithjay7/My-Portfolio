@@ -18,13 +18,13 @@ const About = () => {
           </h1>
           <h1>I'm Jay Chavda</h1>
           <h1>
-            I am a <span style={{ color: "cyan" }}>|</span>
+            I am a <span style={{ color: "white" }}>|</span>
           </h1>
           <hr className="hr" />
           <h3 style={{ fontSize: "23px" }}>
             <img src="images/date1.png" className="imgs" />
             &nbsp;
-            <h1 style={{ display: "inline", paddingRight: "100px" }}>
+            <h1 style={{ display: "inline", marginRight: "120px",paddingLeft:"20px" }}>
               18.11.2004
             </h1>
             <img src="images/calling.png" className="imgs" />
@@ -35,13 +35,13 @@ const About = () => {
             <img src="images/email.png" className="imgs" />
             &nbsp; jay1971chavda@gmail.com
           </h3>
-          <p>
+         
             <img
               src="images/loc.png"
               style={{ height: "30px", width: "30px", display: "inline" }}
             />
             <a style={{ fontSize: "20px", paddingRight: "100px" }}>
-              Ahmedabad,India
+            Ahmedabad,India
             </a>
 
             <a
@@ -50,13 +50,14 @@ const About = () => {
               rel="noopener noreferrer"
               style={{ color: "lightblue", fontSize: "20px" }}
             >
+              <br />
               <img
               src="images/linkedin.png"
               style={{ height: "20px", width: "20px", display: "inline" }}
             />
              &nbsp; linkedin.com/in/jay-chavda-09903a27a
             </a>
-          </p>
+          
         </div>
       </div>
 
