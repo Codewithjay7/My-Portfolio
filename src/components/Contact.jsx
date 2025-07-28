@@ -30,12 +30,13 @@ const Contact = () => {
         
          
             </div>
-            <SocialLinks />
+          
         </form>
       ) : (
         
         alert("Thank you! Your message has been sent.")
       )}
+       <SocialLinks />
     </div>
   );
 };
